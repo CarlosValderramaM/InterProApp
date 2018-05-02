@@ -24,15 +24,24 @@ namespace App_WepID
                     // TODO: Update this path to point to your Android app and uncomment the
                     // code if the app is not included in the solution.
                     //.ApkFile ("..\..\..\Android\bin\Debug\UITestsAndroid.apk")
-                    .ApkFile ("C:\01_PROYECTOS\002_Interprotección\Sprint_02\003_App\com.inter.wepid (16).apk")
-                    
+                    .ApkFile ("C:\\01_PROYECTOS\\002_Interprotección\\Sprint_02\\003_App\\com.inter.wepid (16).apk")
                     .StartApp();
         }
 
         [Test]
         public void AppLaunches()
         {
+            app.Repl();
             app.Screenshot("First screen.");
+            app.Tap("NoResourceEntry-11");
+            app.Tap("NoResourceEntry-18");
+            app.EnterText("5541380221");
+
+            app.Tap("NoResourceEntry-21");
+            app.EnterText("drfgdfgdf");
+
+            app.Tap("NoResourceEntry-22");
+            //app.Screenshot("First screen.");
         }
     }
 }
