@@ -7,6 +7,7 @@ using Xamarin.UITest.Queries;
 using Xamarin.UITest.Android;
 
 namespace App_WepID
+
 {
     [TestFixture]
     public class Tests
@@ -23,6 +24,8 @@ namespace App_WepID
                     // TODO: Update this path to point to your Android app and uncomment the
                     // code if the app is not included in the solution.
                     //.ApkFile ("..\..\..\Android\bin\Debug\UITestsAndroid.apk")
+                    .ApkFile ("C:\01_PROYECTOS\002_Interprotección\Sprint_02\003_App\com.inter.wepid (16).apk")
+                    
                     .StartApp();
         }
 
