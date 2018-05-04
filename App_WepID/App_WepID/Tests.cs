@@ -33,6 +33,8 @@ namespace App_WepID
         {
             app.Repl();
             app.Screenshot("First screen.");
+            app.Screenshot("");
+            //app.Tap()
             app.Tap("NoResourceEntry-11");
             app.Tap("NoResourceEntry-18");
             app.EnterText("5541380221");
@@ -41,7 +43,7 @@ namespace App_WepID
             app.EnterText("drfgdfgdf");
 
             app.Tap("NoResourceEntry-22");
-            //app.Screenshot("First screen.");
+            app.Screenshot("First screen.");
         }
     }
 }

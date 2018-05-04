@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App_WepID", "App_WepID\App_WepID.csproj", "{E20032D7-4EB3-4E22-9C80-97A4FF4F54DF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2A08D2FB-FA01-4C1C-923A-06E2CAC3BC4D} = {2A08D2FB-FA01-4C1C-923A-06E2CAC3BC4D}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App_WepID_Herramientas", "App_WepID_Herramientas\App_WepID_Herramientas.csproj", "{2A08D2FB-FA01-4C1C-923A-06E2CAC3BC4D}"
 EndProject
